@@ -4,23 +4,126 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
     <link rel="stylesheet" href="css/index.css">
-    <title>Bem Vindo! Sou a Yuri</title>
+    <!-- Box Icons -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Bem Vindo! </title>
 </head>
 
 <body>
-    <header>
-        <nav class="menu">
-            <ul>
-                <li><a href="#">Sobre </li>
-                <li><a href="#">Portfólio </li>
-                <li><a href="#">Contato</li>
-          </ul>
+    <header class="header" id="inicio">
+        <img src="img/hamburguer.svg" alt="" class="hamburguer">
+        <nav class="menu-navegacao ">
+            <a href="#home">Home</a>
+            <a href="#aboutme">Sobre mim</a>
+            <a href="#portifolio">Certificações</a>
+            <a href="#especialista">Serviços</a>
+            <a href="#contato">Contato</a>
         </nav>
+        <div class="container head">
+            <h1 class="titulo" id="home">O desafio é seu, a solução é nossa!</h1>
+            <p class="copy">Sou a Yuri, Posso Te Ajudar?</p>
+        </div>
+
     </header>
-      
- <h1 class="site-title"> Yuri Komuta</h1>
- <h2 class="site-subtitle"> Jr. Frontend Developer </h2> 
+
+    <main>
+
+        <section class="aboutme container" id="aboutme">
+            <h2 class="subtitulo">Sobre Mim</h2>
+            <div class="container-aboutme">
+                <img src="img/coding_.svg" alt="">
+                <div class="checklist-aboutme">
+                    <div class="aboutme">
+
+                        <p>Aceita um café?</p>
+                        <p>Eu sou a <strong>Yuri Komuta</strong>, graduanda em Informática Para Negócios pela Fatec Mauá, o que me possibilitou ser também desenvolvedora de web,consultora de ti, instrutora e mentora de programação.</p>
+                        <p>Em 2011 já atuava como Social Media em SP, desde de lá veio adicionando experiências e novos conhecimentos ao meu perfil profissional.</p>
+                        <p>Mergulhei na tecnologia quando participei de um projeto de mentoria de um grupo de tecnologia para mulheres no Facebook chamado <strong> <a href="https://www.facebook.com/groups/elasprogramam/" target="_blank" > Elas Programam</strong></a>,
+                            logo eu que sempre achei que nunca poderia ser capaz de escrever uma linha de código.</p>
+                        <p>A história não ficou por aí, participei de um curso de formação de <strong>Frontend</strong> por outra iniciativa de inserir mais mulheres na tecnologia, dessa vez <a href="https://www.programaria.org" target="_blank"><strong>Programaria</strong></a>                            isso lá em 2018.</p>
+                        <p>Faço parte da comunidade <a href="https://github.com/compiladoras " target="_blank"><strong>Compiladoras de Cafeína</strong></a> onde ensinamos mulheres a programar. </p>
+                        <p>Atuei por mais de 4 anos na prevenção e detecção a fraudes comerciais.</p>
+                        <p>Desde então sigo estudando atuando em diversas aéreas de negócios e tecnologia.</p>
+                        </p> Sempre disponível para novos negócio.<a href="#contato">Contato</a>.</p>
+
+                        <h3 class="n-aboutme">
+                            Uma apaixonada pelo mundo da tecnologia e café ✌💁.
+                        </h3>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section class="galeria" id="portifolio">
+            <div class="container">
+                <h2 class="subtitulo">Certificações </h2>
+                <div class="container-galeria">
+                    <img src="img/frontend.png" alt="" class="img-galeria">
+                    <img src="img/Certificado_InternetInnovation (1).png" alt="" class="img-galeria">
+                    <img src="img/reactjs.png" alt="" class="img-galeria">
+                    <img src="img/scrum.png" alt="" class="img-galeria">
+                    <img src="img/seg.png" alt="" class="img-galeria">
+                    <img src="img/bi.png" alt="" class="img-galeria">
+                </div>
+            </div>
+        </section>
+
+        <section class="image-light">
+            <img src="img/close.svg" alt="" class="close">
+            <img src="img/181110-nosolhosbs-programaria-131.jpg" alt="" class="agregar-imagem">
+        </section>
+
+        <section class="container" id="especialista">
+            <h2 class="subtitulo">Serviços </h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="img/_digital_content_isometric.svg" alt="">
+                    <h3 class="n-expert "><span class="number">1</span> Social Media</h3>
+                    <p>Atuando desde de 2011 com criação de conteúdo, performace (Google Ads / Facebook Ads), backstage Youtuber, engajamento orgânico mídias sociais. </p>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/artificial_intelligence_isometric.svg" alt="">
+                    <h3 class="n-expert"> <span class="number">2</span> Programação e Robótica</h3>
+                    <p>Aulas de lógica de programação (Construct/Scratch/Dash & Dot/App Inventor), Robótica (Arduino e Microbit), Desenvolvimento Web e Software (Python/Js/Html5 & Css3).</p>
+                </div>
+                <div class="cont-expert">
+                    <img src="img/market_analysis__isometric.svg" alt="">
+                    <h3 class="n-expert"> <span class="number">3</span> Consultoria De TI</h3>
+                    <p>Atendimento para ouvir e compreender as necessidades de um cliente na demanda da informática.Buscando oferecer as soluções que seja eficientes e eficazes para as demandas do negócio. </p>
+                </div>
+            </section>
+        </section>
+    </main>
+
+
+    <footer id="contato">
+        <div class="container footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Yuri Komuta</h2>
+                <p> Vamos Juntas, Vamos Em Frente </p>
+            </div>
+            <div class="social-media">
+
+                <a href="https://www.instagram.com/yurikomuta/" class="social-media-icon" target="_blank">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+                <a href="https://www.linkedin.com/in/yurikomuta/" class="social-media-icon" target="_blank">
+                    <i class='bx bxl-linkedin'></i>
+                </a>
+                <a href="https://github.com/yurikomuta" class="social-media-icon" target="_blank">
+                    <i class='bx bxl-github'></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+
+    <script src="js/menu.js"></script>
+    <script src="js/lightbox.js"></script>
 </body>
 
 </html>
